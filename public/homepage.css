@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background-color: grey;
+    padding: 2px;
+}
+
+main {
+    background-color: bisque;
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.sb {
+    justify-content: space-between
+}
+
+.br {
+    border: 1px solid rgb(68, 68, 68);
+}
+ 
+.web-container {
+    height: 20%;
+    Width:  100%;
+    background-color: aquamarine;
+}
+
+.web-container p {
+    margin: 0;
+}
+
+.top-bar {
+    
+    
+    height: 2.5vh;
+    background-image: linear-gradient(to right, #030566 , #A4C8EE);
+    
+}
+
+.top-bar-title {
+    color: white;
+    font-size: 14px;
+}
+
+.exit-container {
+    height: 15px;
+    width: 3vw;
+
+    margin: 1px;
+}
+
+.top-bar .box {
+    height: 15px;
+    width: 15px;
+    background-color: red;
+
+}
+
+

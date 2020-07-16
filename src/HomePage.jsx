@@ -10,11 +10,13 @@ class HomePage extends Component {
   render() {
     return (
       <>
-        <WebHeader/>
-        <Header/>
-        <SubHeader/>
-        <Main/>
-        <Footer/>
+        <main>
+          <WebHeader/>
+          <Header/>
+          <SubHeader/>
+          <Main/>
+          <Footer/>
+        </main>
       </>
     );
   }

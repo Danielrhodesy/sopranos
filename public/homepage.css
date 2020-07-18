@@ -24,7 +24,7 @@ main {
 .web-container {
     height: 20%;
     Width:  100%;
-    background-color: aquamarine;
+    background-color: #C0C0BF;
 }
 
 .web-container p {
@@ -55,7 +55,27 @@ main {
     height: 15px;
     width: 15px;
     background-color: red;
-
 }
 
+.nav-bar {
+    height: 50px;
+    /* background-color: aqua; */
+    margin: 5px 0px;
+}
 
+.sec {
+    height: 95%;
+    width: 220px;
+    margin-right: 10px;
+}
+
+.sec-two {
+    height: 95%;
+    width: 348px;
+}
+
+.sec box {
+    height: 100%;
+    width: 5em;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.12), 2px 2px 0px rgba(0, 0, 0, 0.24);
+}

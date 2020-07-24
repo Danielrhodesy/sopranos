@@ -30,7 +30,7 @@ class WebHeader extends Component {
                 <box class="">                 
                 </box>
               </div>
-              <div class="sec-two br">
+              <div class="sec-two br flex">
                 <box>                 
                 </box>
                 <box>                 

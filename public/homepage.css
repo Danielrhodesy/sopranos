@@ -4,6 +4,17 @@ body {
     padding: 2px;
 }
 
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
 main {
     background-color: bisque;
     height: 100vh;
@@ -32,8 +43,6 @@ main {
 }
 
 .top-bar {
-    
-    
     height: 2.5vh;
     background-image: linear-gradient(to right, #030566 , #A4C8EE);
     
@@ -79,3 +88,49 @@ main {
     width: 5em;
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.12), 2px 2px 0px rgba(0, 0, 0, 0.24);
 }
+
+
+
+
+
+
+
+
+
+/* MAIN  */
+
+.main {
+    display: flex;
+    background-color: lightblue;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+}
+
+
+.container-header {
+    width:40%;
+    height: 15%;
+    font-size: 38px;
+    background-color: white;
+    border: #C0C0BF 5px solid;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 0.5%;
+    margin-bottom: 2%;
+}
+
+.container-subheader{
+    width:50%;
+    height: 12%;
+    background-color: blue;
+    margin: 0 auto;
+    color: rgb(216, 216, 0);
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.title-guide {
+    font-size: 17px;
+}
+
